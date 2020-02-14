@@ -35,6 +35,7 @@ def test_http_permission_denied():
 
 
 def test_api_exc_string():
+
     error = APIException()
     response = exception_handler(error, None)
     errors = response.data['errors']

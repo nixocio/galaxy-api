@@ -21,7 +21,7 @@ jobs:
       script: tox -e linters
 
     - name: "Unit tests"
-      script: tox -e py36
+      script: tox -e py36 
       services:
         - docker
         - postgresql
