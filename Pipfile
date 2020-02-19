@@ -18,6 +18,7 @@ boto3 = "*"
 watchtower = "*"
 logstash-formatter = "*"
 django-request-id = "*"
+pytest-cov = "*"
 
 [dev-packages]
 flake8 = "*"
