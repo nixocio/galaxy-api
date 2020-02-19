@@ -23,6 +23,8 @@ django-request-id = "*"
 flake8 = "*"
 pytest = "*"
 pytest-django = "*"
+pytest-cov = "*"
+galaxy-api = {editable = true,path = "."}
 
 [requires]
 python_version = "3.6"
